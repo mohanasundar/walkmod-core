@@ -34,7 +34,7 @@ public class WalkModDispatcher {
 	public static void printHeader() {
 		log.info("Java version: " + System.getProperty("java.version"));
 		log.info("Java Home: " + System.getProperty("java.home"));
-		log.info("OS: " + System.getProperty("os.name") + ", Vesion: "
+		log.info("OS: " + System.getProperty("os.name") + ", Version: "
 				+ System.getProperty("os.version"));
 		System.out.print("----------------------------------------");
 		System.out.println("----------------------------------------");
@@ -107,7 +107,7 @@ public class WalkModDispatcher {
 				System.out.println("Java Home: "
 						+ System.getProperty("java.home"));
 				System.out.println("OS: " + System.getProperty("os.name")
-						+ ", Vesion: " + System.getProperty("os.version"));
+						+ ", Version: " + System.getProperty("os.version"));
 			} else if (paramsList.contains("apply")) {
 				paramsList.remove("apply");
 				printHeader();
